@@ -4,6 +4,7 @@
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
+
 img{
   width:100%;
 }
@@ -107,6 +108,10 @@ span{
 }
 .blue-color{
   color: $theme-blue;
+}
+.blue-bordered{
+  color:$theme-blue !important;
+  background-color: #e7edff !important;
 }
 .purple-color{
   color: $theme-purple;

@@ -253,11 +253,11 @@ body .content-area__body .price-card__header select {
   color: #71798d;
 }
 
-body .content-area__body .price-card__header select option {
+body .content-area__body .price-card__header select -moz-appearance:none option {
   padding: 4px 7px;
 }
 
-body .content-area__body .price-card__header select option:hover {
+body .content-area__body .price-card__header select -moz-appearance:none option:hover {
   border: none;
 }
 
@@ -310,7 +310,7 @@ body .content-area__body .graph-report__card .inner-content {
 }
 
 body .content-area__body .graph-report__card .inner-content span {
-  font-size: 35px;
+  font-size: 30px;
   margin-right: 15px;
 }
 
@@ -610,6 +610,11 @@ span {
 
 .blue-color {
   color: #4054ff;
+}
+
+.blue-bordered {
+  color: #4054ff !important;
+  background-color: #e7edff !important;
 }
 
 .purple-color {
