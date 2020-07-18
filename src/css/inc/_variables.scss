@@ -1,0 +1,25 @@
+$theme-light : #f5f7fb;
+$theme-blue: #4054ff;
+$theme-gray: #9aa2b4;
+$theme-purple: #9845f4;
+$text-light: #6c7289;
+$light-blue: #e8edf6;
+$light-purple: #f8f1ff;
+.d-flex{
+  display:flex;
+  flex-wrap: wrap;
+}
+.align-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+
+
+.p-40{
+  padding: 40px;
+}
