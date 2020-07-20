@@ -14,14 +14,14 @@
     <section class="p-40">
       <aside>
         <div class="sidebar p-40">
-          <div class="logo">
+          <div class="logo box-shadow">
             <a href="#" class="flex-center">
               <span class="speed-logo">
                 <i class="material-icons">speed</i>
               </span>
-              <span class="text-logo">
+              <h4 class="text-logo">
                 LOGO
-              </span>
+              </h4>
             </a>
             <span class="dots-icon toggle-icon">
               <i></i>
@@ -31,7 +31,7 @@
           </div>
           <div class="add">
             <a href="#">
-              <span class="plus-icon">+</span>
+              <span class="plus-icon box-shadow">+</span>
               New
             </a>
           </div>
@@ -80,26 +80,26 @@
               </li>
             </ul>
           </div>
-          <div class="add-card">
+          <div class="add-card box-shadow">
             <span class="add-card__header flex-between">
               <img src="./src/media/mobile-hand.PNG" alt="handling mobile">
               <span class="plus-icon">+</span>
             </span>
             <span class="add-card__body">
-              <h2>Add your mobile phone</h2>
-              <span>e.g +48 013 403 153</span>
+              <h4 class="blue-color">Add your <br>mobile phone</h4>
+              <p class="gray-color mt-10">e.g +48 013 403 153</p>
             </span>
             <span class="divider"></span>
             <span class="add-card__footer flex-between">
-              SEND
-              <span class="material-icons">
+              <p class="gray-color">SEND</p>
+              <span class="material-icons gray-color">
                 arrow_forward
                 </span>
             </span>
           </div>
           <div class="settings">
             <a href="#" class="flex-center">
-              <span class="material-icons">
+              <span class="material-icons mr-15">
                 settings
               </span>
               Settings
@@ -109,32 +109,37 @@
       </aside>
       <main>
         <div class="wrapper">
-          <div class="content-area">
+          <div class="content-area box-shadow">
             <div class="content-area__header flex-between">
               <span class="material-icons icon">search</span>
-              <span class="font-20 bold">Exchange</span>
-              <span>
+              <h4>Exchange</h4>
+              <div class="d-flex">
                 <span class="material-icons icon pr-15">
                   access_time
                 </span>
                 <span class="material-icons icon">
                   calendar_today
                 </span>
-              </span>
+              </div>
 
             </div>
             <span class="divider"></span>
             <div class="content-area__body flex-center">
               <div class="flex-center card-group">
-                <div class="price-card flex-center w-400">
+                <div class="price-card flex-center">
                   <div class="price-card__header flex-between w-100">
-                    <span class="flex-center">
-                      <select class="blue-bordered">
-                        <option>EUR</option>
-                        <option>USD</option>
-                      </select>
+                    <div class="flex-center">
+                      <span class="select-currency">
+                        <select class="blue-bordered">
+                          <option>EUR</option>
+                          <option>USD</option>
+                        </select>
+                        <span class="material-icons select-currency__icon blue-color">
+                          keyboard_arrow_down
+                        </span>
+                      </span>
                       <p>RESET VALUES</p>
-                    </span>
+                    </div>
                     <span class="dots-icon">
                       <i></i>
                       <i></i>
@@ -143,13 +148,13 @@
                   </div>
                   
                   <div class="price-card__body">
-                    <div class="price-content">
+                    <div class="price-content d-flex justify-center">
                       <span class="currency-symbol">
                         €
                       </span>
-                      <span class="price-text">
+                      <h2 class="price-text">
                         1700.00
-                      </span>
+                      </h2>
                     </div>
   
                     <span class="sub-text">
@@ -164,14 +169,19 @@
                     <img src="./src/media/change.PNG" alt="change">
                   </span>
                 </div>
-                <div class="price-card flex-center w-400  light-blue box-shadow">
+                <div class="price-card flex-center light-blue box-shadow">
                   <div class="price-card__header flex-between w-100">
-                    <span class="flex-center">
-                      <select>
-                        <option>USD</option>
-                        <option>EUR</option>
-                      </select>
-                    </span>
+                    <div class="flex-center">
+                      <span class="select-currency">
+                        <select class="text-light">
+                          <option>USD</option>
+                          <option>EUR</option>
+                        </select>
+                        <span class="material-icons select-currency__icon text-light">
+                          keyboard_arrow_down
+                        </span>
+                      </span>
+                    </div>
                     <span class="dots-icon">
                       <i></i>
                       <i></i>
@@ -181,13 +191,13 @@
                   
                   <span class="divider"></span>
                   <div class="price-card__body">
-                    <div class="price-content">
+                    <div class="price-content d-flex justify-center">
                       <span class="currency-symbol">
                         $
                       </span>
-                      <span class="price-text">
+                      <h2 class="price-text">
                         1927.28
-                      </span>
+                      </h2>
                     </div>
                     <span class="sub-text">
                       1 EUR = 1.14071 USD
@@ -202,11 +212,11 @@
               <div class="graph-report flex-center w-100">
                 <div class="graph-report__card">
                   <div class="inner-content flex-center light-blue blue-color">
-                    <span>18</span>
+                    <h3 class="mr-15">18</h3>
                     <p>Exchanges</p>
                   </div>
                   <div class="inner-content flex-center  light-purple purple-color">
-                    <span>26</span>
+                    <h3 class="mr-15">26</h3>
                     <p>Withdraws</p>
                   </div>
                 </div>
@@ -229,7 +239,7 @@
                           <span class="material-icons">
                             remove_red_eye
                           </span>
-                          <span class="material-icons">
+                          <span class="material-icons pl-10">
                             content_copy
                           </span>
                         </td>
@@ -242,7 +252,7 @@
                           <span class="material-icons">
                             remove_red_eye
                           </span>
-                          <span class="material-icons">
+                          <span class="material-icons pl-10">
                             content_copy
                           </span>
                         </td>
@@ -256,7 +266,7 @@
                           <span class="material-icons">
                             remove_red_eye
                           </span>
-                          <span class="material-icons">
+                          <span class="material-icons pl-10">
                             content_copy
                           </span>
                         </td>
@@ -269,7 +279,7 @@
             </div>
           </div>
           <div class="profile">
-            <div class="profile-header flex-between">
+            <div class="profile-header flex-between box-shadow">
               <h4>Profile</h4>
               <span class="material-icons">
                 notifications_none
@@ -306,7 +316,7 @@
                 <span class="material-icons input-icon">
                   lock_open
                 </span>
-                <input type="text" class="form-input" placeholder="Add phone number to unlock feature">
+                <input type="text" class="form-input box-shadow" placeholder="Add phone number to unlock feature">
               </div>
               <div class="payment-mode">
                 <img src="./src/media/visa.PNG" alt="visa card">
